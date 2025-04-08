@@ -19,6 +19,10 @@ public class add {
         // Display the result
         System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
 
+        int difference = num1 - num2;
+
+        System.out.println("The difference of " + num1 + " and " + num2 + " is: " + difference);
+
         scanner.close();
     }
 }
